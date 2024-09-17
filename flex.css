@@ -1,0 +1,106 @@
+/* flex.css */
+body {
+  background-color: #f0f0f0; /* Light gray background color for the body */
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.sidebar {
+  background-color: white; /* White background color for the sidebar */
+  height: 90vh; /* Full height sidebar */
+  border-right: 2px solid #dee2e6; /* Optional: add a border to the right of the sidebar */
+  display: flex;
+  align-items: center; /* Center content vertically */
+  /* margin-top: 100px; */
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  
+}
+
+.nav {
+
+  width: 95%; /* Ensure the nav takes the full width of the sidebar */
+  /* text-align: center;  */
+  /* padding-bottom: 50px; */
+  margin-top: -20px;
+}
+
+.nav-link {
+  color: #333; /* Dark color for the nav links */
+  padding: 15px;
+}
+
+.nav-link:hover {
+  background-color: #f8f9fa; /* Light hover effect for the nav links */
+}
+
+.nav-item .fas {
+  margin-right: 10px; /* Space between icon and text */
+}
+
+.main {
+  background-color: white; /* White background color for the main content */
+}
+
+header {
+  background-color: white; /* White background color for the header */
+  border-bottom: 1px solid #dee2e6; /* Border at the bottom of the header */
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile-img {
+  width: 80px; /* Width of the profile image */
+  height: 80px; /* Height of the profile image */
+}
+
+.profile-heading {
+  margin-top: 10px; /* Margin above the profile heading */
+}
+
+.itemss {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  border-bottom: 1px solid #dee2e6; /* Border at the bottom of the nav items */
+}
+
+.itemss div {
+  flex: 1;
+  text-align: center;
+  font-weight: bold;
+}
+
+.compose-btn {
+  background-color: #007bff; /* Button background color */
+  color: white; /* Button text color */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.email-client {
+  background-color: white; /* White background color for the email client */
+  padding: 20px;
+}
+
+.table {
+  margin-top: 20px;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f8f9fa; /* Light hover effect for table rows */
+}
+
+.table thead th {
+  border-bottom: 2px solid #dee2e6; /* Border at the bottom of table headers */
+}
+
+.table tbody td {
+  border-top: 1px solid #dee2e6; /* Border at the top of table cells */
+}
